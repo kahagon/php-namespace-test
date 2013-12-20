@@ -1,0 +1,8 @@
+// $ Id: $
+// vim:ft=javascript
+
+ARG_ENABLE('NSTest' , 'API for talking to serialport', 'no');
+if (PHP_NSTEST == "yes") {
+  EXTENSION("NSTest", "NSTest.c");
+  AC_DEFINE("HAVE_NSTEST", 1, "NSTest support");
+}

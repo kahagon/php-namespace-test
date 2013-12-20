@@ -1,0 +1,5 @@
+<!ENTITY reference.NSTest.reference SYSTEM './NSTest/reference.xml'>
+<!ENTITY reference.NSTest.constants SYSTEM './NSTest/constants.xml'>
+<!ENTITY reference.NSTest.ini SYSTEM './NSTest/ini.xml'>
+<!ENTITY reference.NSTest.configure SYSTEM './NSTest/configure.xml'>
+<!ENTITY reference.NSTest.functions SYSTEM './functions.xml'>
